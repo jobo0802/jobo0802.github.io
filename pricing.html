@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIME</title>
+    <link rel="stylesheet" href="styles/css/main.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img class="logo_img" src="https://upload.wikimedia.org/wikipedia/commons/7/74/Prime_Hydration_logo.png" alt="logo">
+                </a>
+
+                <ul class="nav_list">
+                    <li class="nav_list-item">
+                        <a href="biler.html" class="nav_list-link">Biler</a>
+                    </li>
+                    <li class="nav_list-item">
+                        <a href="pricing.html" class="nav_list-link">Priser</a>
+                    </li>
+                    <li class="nav_list-item">
+                        <a href="kommer_snart.html" class="nav_list-link">Fremtiden</a>
+                    </li>
+                    <li class="nav_list-item">
+                        <a href="omoss.html" class="nav_list-link">Om Oss</a>
+                    </li>
+                    <li class="nav_list-item">
+                        <a href="kontakt.html" class="nav_list-link">Kontakt</a>
+                    </li>
+                </ul>
+
+                <a href="booking.html" class="btn btn-black">BOOKING</a>
+
+                <button class="menu_toggle">
+                    <svg height="6" width="20" xmlns="http://www.w3.org/2000/svg" class="open">
+                        <g fill-rule="evenodd">
+                            <path d="M0 0h20v1H0zM0 5h20v1H0z"></path>
+                        </g>
+                    </svg>
+                    <svg height="15" width="16" xmlns="http://www.w3.org/2000/svg" class="close">
+                        <path
+                            d="M14.718.075l.707.707L8.707 7.5l6.718 6.718-.707.707L8 8.207l-6.718 6.718-.707-.707L7.293 7.5.575.782l.707-.707L8 6.793 14.718.075z"
+                            fill-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="pricing">
+            <div class="container-lg">
+                <div class="row">
+                    <div class="section_text section_text_black">
+                        <div class="section_text-box">
+                            <h2 class="heading white">Priser</h2>
+                            <p class="opaque-grey">I PRIME har vi 3 forskjellige prisklasser, avhenig av hvilker
+                                bil du ønsker å leie. Lux, Sport og Super. De forskjellige bilene har forskjellige
+                                prisklasser og dette er merket i bilens beskrivelse. Under ser du prislista</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section_image section-pricing-img"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing-tabs">
+            <div class="container">
+                <div class="toggle-container">
+                    <span>Ukentlig leie</span>
+                    <span>
+                        <input type="checkbox" name="toggle" id="toggle" unchecked>
+                        <label for="toggle">
+                            <div class="ball"></div>
+                        </label>
+                    </span>
+                    <span>Daglig leie</span>
+                </div>
+                <div class="price-grid">
+                    <div class="price-box">
+                        <h4>Lux</h4>
+                        <p>Denne klassen utgjør de komfortable, samt kraftige biler, biler som går under
+                            lux er biler som Mercedes, BMW, Audi og lignende.
+                        </p>
+                        <h2 class="heading">
+                            <span class="ukentlig">7 000.-</span>
+                            <span class="daglig">1000.-</span>
+                        </h2>
+                        <p>
+                            <span class="ukentlig">Ukentlig</span>
+                            <span class="daglig">Daglig</span>
+                        </p>
+                        <button class="btn btn-black">Book</button>
+                    </div>
+                    <div class="price-box pro">
+                        <h4>Super</h4>
+                        <p>I denne pakken for du kun det beste, alt fra Ferarri til Bugatti.
+                        Kun de råeste motorene i verden finner du her.
+                        </p>
+                        <h2 class="heading">
+                            <span class="ukentlig">17 500.-</span>
+                            <span class="daglig">2 500.-</span>
+                        </h2>
+                        <p>
+                            <span class="ukentlig">Ukentlig</span>
+                            <span class="daglig">Daglig</span>
+                        </p>
+                        <button class="btn btn-black">Book</button>
+                    </div>
+                    <div class="price-box">
+                        <h4>Sport</h4>
+                        <p>I denne kategorien får du en sportsbil med hestekreft garanti,
+                            og en bil som er perfekt for deg som ønsker å kjøre fort.
+                        <h2 class="heading">
+                            <span class="ukentlig">10 500.-</span>
+                            <span class="daglig">1 500.-</span>
+                        </h2>
+                        <p>
+                            <span class="ukentlig">Ukentlig</span>
+                            <span class="daglig">Daglig</span>
+                        </p>
+                        <button class="btn btn-black">Book</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="compare">
+            <div class="container-small">
+                <h2 class="heading">Sammenlign</h2>
+                <div class="table">
+                    <div class="table_head table_row">
+                        <div class="col-1"><span>Fuksjoner</span></div>
+                        <div class="col-2">
+                            <span>Lux</span>
+                            <span>Sport</span>
+                            <span>Super</span>
+                        </div>
+                    </div>
+                    <div class="table_body table_row">
+                        <div class="col-1"><span>Motor som går</span></div>
+                        <div class="col-2">
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Lux</span>
+                                <img src="images/check.svg" alt="check">
+                            </span>
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Sport</span>
+                                <img src="images/check.svg" alt="check">
+                            </span>
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Super</span>
+                                <img src="images/check.svg" alt="check">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="table_body table_row">
+                        <div class="col-1"><span>Motor som girer</span></div>
+                        <div class="col-2">
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Lux</span>
+                                <img src="images/check.svg" alt="check">
+                            </span>
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Sport</span>
+                                <img src="images/check.svg" alt="check">
+                            </span>
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Super</span>
+                                <img src="images/check.svg" alt="check">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="table_body table_row">
+                        <div class="col-1"><span>Uten TV bak</span></div>
+                        <div class="col-2">
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Lux</span>
+                            </span>
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Sport</span>
+                                <img src="images/check.svg" alt="check">
+                            </span>
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Super</span>
+                                <img src="images/check.svg" alt="check">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="table_body table_row">
+                        <div class="col-1"><span>2 Seter</span></div>
+                        <div class="col-2">
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Lux</span>
+                            </span>
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Sport</span>
+                                <img src="images/check.svg" alt="check">
+                            </span>
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Super</span>
+                                <img src="images/check.svg" alt="check">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="table_body table_row">
+                        <div class="col-1"><span>Jentegaranti</span></div>
+                        <div class="col-2">
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Lux</span>
+                            </span>
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Sport</span>
+                            </span>
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Super</span>
+                                <img src="images/check.svg" alt="check">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="table_body table_row">
+                        <div class="col-1"><span>Botgaranti</span></div>
+                        <div class="col-2">
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Lux</span>
+                            </span>
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Sport</span>
+                            </span>
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Super</span>
+                                <img src="images/check.svg" alt="check">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="table_body table_row">
+                        <div class="col-1"><span>G-kreft garanti</span></div>
+                        <div class="col-2">
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Lux</span>
+                            </span>
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Sport</span>
+                            </span>
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Super</span>
+                                <img src="images/check.svg" alt="check">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="table_body table_row">
+                        <div class="col-1"><span>Fengselsgaranti</span></div>
+                        <div class="col-2">
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Lux</span>
+                            </span>
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Sport</span>
+                            </span>
+                            <span class="mobile-flex-column">
+                                <span class="plan-name">Super</span>
+                                <img src="images/check.svg" alt="check">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer_logo-box">
+                    <a href="index.html" class="logo">
+                        <img class="logo_img" src="https://upload.wikimedia.org/wikipedia/commons/7/74/Prime_Hydration_logo.png" alt="logo">
+                    </a>
+                    <ul class="social">
+                        <li>
+                            <a class="facebook" href="index.html"></a>
+                        </li>
+                        <li>
+                            <a class="youtube" href="index.html"></a>
+                        </li>
+                        <li>
+                            <a class="twitter" href="index.html"></a>
+                        </li>
+                        <li>
+                            <a class="pinterest" href="index.html"></a>
+                        </li>
+                        <li>
+                            <a class="instagram" href="index.html"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_menu-box">
+                    <ul class="footer_menu">
+                        <li class="footer_menu-item">
+                            <a class="footer_menu-link" href="biler.html">Biler</a>
+                        </li>
+                        <li class="footer_menu-item">
+                            <a class="footer_menu-link" href="pricing.html">Priser</a>
+                        </li>
+                        <li class="footer_menu-item">
+                            <a class="footer_menu-link" href="omoss.html">Om Oss</a>
+                        </li>
+                        <li class="footer_menu-item">
+                            <a class="footer_menu-link" href="kontakt.html">Kontakt</a>
+                        </li>
+                    </ul>
+                    <ul class="footer_menu">
+                        <li class="footer_menu-item">
+                                <p class="footer_menu-text">Kontaktinformasjon</p>
+                            </li>
+                            <li class="footer_menu-item">
+                                <p class="footer_menu-text">Telefon: +47 123 456 789</p>
+                            </li>
+                            <li class="footer_menu-item">
+                                <p class="footer_menu-text">E-post: kontakt@primecars.no</p>
+                            </li>
+                            <li class="footer_menu-item">
+                                <p class="footer_menu-text">Adresse: Vikaveien 1, 0123 Oslo</p>
+                            </li>
+                    </ul>
+                </div>
+                <div class="footer_copyright">
+                    <a href="booking.html" class="invite-link invite-link-white">booking</a>
+                    <p class="opaque-grey">&copy; 2023 Jonathan Borge</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        ScrollReveal().reveal('main', { delay: 500 }, { reset: true });
+        ScrollReveal().reveal('.compare', { delay: 500 }, { reset: true });
+    </script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

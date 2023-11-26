@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIME</title>
+    <link rel="stylesheet" href="styles/css/main.css">
+    <script src="/js/mailjs.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("l95ks6vszP7D7KjZe");
+    })();
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <style>
+        .sport, .super, .lux {
+            display: none;
+        }
+
+        .sport.show, .super.show, .lux.show {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img class="logo_img" src="https://upload.wikimedia.org/wikipedia/commons/7/74/Prime_Hydration_logo.png" alt="logo">
+                </a>
+
+                <ul class="nav_list">
+                    <li class="nav_list-item">
+                        <a href="biler.html" class="nav_list-link">Biler</a>
+                    </li>
+                    <li class="nav_list-item">
+                        <a href="pricing.html" class="nav_list-link">Priser</a>
+                    </li>
+                    <li class="nav_list-item">
+                        <a href="kommer_snart.html" class="nav_list-link">Fremtiden</a>
+                    </li>
+                    <li class="nav_list-item">
+                        <a href="omoss.html" class="nav_list-link">Om Oss</a>
+                    </li>
+                    <li class="nav_list-item">
+                        <a href="kontakt.html" class="nav_list-link">Kontakt</a>
+                    </li>
+                </ul>
+
+                <a href="booking.html" class="btn btn-black">BOOKING</a>
+
+                <button class="menu_toggle">
+                    <svg height="6" width="20" xmlns="http://www.w3.org/2000/svg" class="open">
+                        <g fill-rule="evenodd">
+                            <path d="M0 0h20v1H0zM0 5h20v1H0z"></path>
+                        </g>
+                    </svg>
+                    <svg height="15" width="16" xmlns="http://www.w3.org/2000/svg" class="close">
+                        <path
+                            d="M14.718.075l.707.707L8.707 7.5l6.718 6.718-.707.707L8 8.207l-6.718 6.718-.707-.707L7.293 7.5.575.782l.707-.707L8 6.793 14.718.075z"
+                            fill-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+    <br><br><br><br><br>
+    <div class="revealbiler">
+    <h4>På denne siden kan du velge mellom tre forskjellige klasser av biler. Velg den klassen som passer ditt behov best.</h4>
+    <h2 class="heading black center-text mt mb-lg">01. velg din klasse</h2>
+    <section class="gallery">
+        <div class="container-lg">
+            <div class="grid_3">
+                <a href="#sport" class="image-container-ind">
+                    <div class="image image-4">
+                        <div class="image-box">
+                            <div class="image-textbox">
+                                <h3>SPORT</h3>
+                            </div>
+                            <div class="image-link">
+                                <h6>Velg</h6>
+                                <img src="images/arrow-white.svg" alt="arrow">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#super" class="image-container-ind">
+                    <div class="image image-2">
+                        <div class="image-box">
+                            <div class="image-textbox">
+                                <h3>SUPER</h3>
+                            </div>
+                            <div class="image-link">
+                                <h6>Velg</h6>
+                                <img src="images/arrow-white.svg" alt="arrow">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#lux" class="image-container-ind">
+                    <div class="image image-3">
+                        <div class="image-box">
+                            <div class="image-textbox">
+                                <h3>LUX</h3>
+                            </div>
+                            <div class="image-link">
+                                <h6>Velg</h6>
+                                <img src="images/arrow-white.svg" alt="arrow">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <a class="gotop" href="#">
+        <svg fill="#000000" height="32px" width="32px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 330 330" xml:space="preserve">
+<path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+	l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+	C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"/>
+</svg>
+    </a>
+</div>
+<main id="main">
+    <div id="sport" class="sport">
+        <div class="container">
+            <h1 class="title_cat">Sport</h1>
+            <div class="porsche_cat">
+                <h1 class="brand_name">Porsche</h1>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img" src="https://files.porsche.com/filestore/image/multimedia/none/911-tus-modelimage-sideshot/model/930894f1-6214-11ea-80c8-005056bbdc38/porsche-model.png" alt="911 turbo s">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>911 Turbo S</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 1 000 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img" src="https://files.porsche.com/filestore/image/multimedia/none/911-tus-cab-modelimage-sideshot/model/9e30bd39-95bf-11ea-80c9-005056bbdc38/porsche-model.png" alt="911 turbo s">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>911 Turbo S Cabriolet</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 1 000 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img" src="https://files.porsche.com/filestore/image/multimedia/none/911-tu-modelimage-sideshot/model/fe21bac9-833c-11eb-80d3-005056bbdc38/porsche-model.png" alt="911 turbo s">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>911 Turbo</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 1 000 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img" src="https://files.porsche.com/filestore/image/multimedia/none/911-tu-cab-modelimage-sideshot/model/3ab50343-833d-11eb-80d3-005056bbdc38/porsche-model.png" alt="911 turbo s">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>911 Turbo Cabriolet</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 1 000 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bmw_cat">
+                <h1 class="brand_name">BMW</h1>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img" src="https://cdn-08.imagin.studio/getImage?customer=electriccarlease&fileType=webp&width=1424&angle=5&capId=100701&capVehicleType=car&paintId=pspc0334" alt="911 turbo s">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>I7 xDrive60 M</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 1 000 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img img_flip" src="https://img.sm360.ca/ir/w640h333c/images/newcar/ca/2024/bmw/m4-coupe/m4/coupe/exteriorColors/2024_bmw_m4-coupe_base_001_c3z.png" alt="911 turbo s">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>M4</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 1 000 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img img_flip" src="https://www.cars.com/i/xxlarge/in/v2/stock_photos/d979012c-06d1-4dc2-8b50-cd740825c582/68b675ae-59ab-4e07-be10-21b86a2cd499.png" alt="911 turbo s">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>M5</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 1 000 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+            </div>
+            <div class="merchedes_cat">
+                <h1 class="brand_name">Mercedes-Benz</h1>
+                    <div class="car_model">
+                        <div class="picture_model">
+                            <img class="biler_img img_flip" style="object-fit: cover; height: 215px; " src="https://picolio.auto123.com/16photo/mercedes/2016-mercedes-e-class-e63-amg-s-4matic_4.png" alt="amg e63s">
+                        </div>
+                        <div class="l_text_model">
+                            <h1>AMG E63s</h1>
+                            <ul class="model_list">
+                                <li>0-100 km/t: 2,7 sek</li>
+                                <li>Topphastighet: 330 km/t</li>
+                                <li>Effekt: 650 hk</li>
+                                <li>Dreiemoment: 800 Nm</li>
+                            </ul>
+                        </div>
+                        <div class="r_text_model">
+                            <ul class="model_list mt">
+                                <li>Drivstofforbruk: 1,1 l/mil</li>
+                                <li>CO2-utslipp: 254 g/km</li>
+                                <li>Pris: 1 000 kr/dag</li>
+                            </ul>
+                            <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                        </div>
+                    </div>
+                    <div class="car_model">
+                        <div class="picture_model">
+                            <img class="biler_img img_flip" style="object-fit: cover; height: 215px;" src="https://picolio.auto123.com/16photo/mercedes-amg/2016-mercedes-amg-c-class-c63_1.png" alt="amg c63s">
+                        </div>
+                        <div class="l_text_model">
+                            <h1>AMG C63s</h1>
+                            <ul class="model_list">
+                                <li>0-100 km/t: 2,7 sek</li>
+                                <li>Topphastighet: 330 km/t</li>
+                                <li>Effekt: 650 hk</li>
+                                <li>Dreiemoment: 800 Nm</li>
+                            </ul>
+                        </div>
+                        <div class="r_text_model">
+                            <ul class="model_list mt">
+                                <li>Drivstofforbruk: 1,1 l/mil</li>
+                                <li>CO2-utslipp: 254 g/km</li>
+                                <li>Pris: 1 000 kr/dag</li>
+                            </ul>
+                            <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                        </div>
+                    </div>
+                    <div class="car_model">
+                        <div class="picture_model">
+                            <img class="biler_img img_flip" style="object-fit: cover; height: 215px;" src="https://picolio.auto123.com/16photo/mercedes-amg/2016-mercedes-amg-gt.png" alt="amg gt">
+                        </div>
+                        <div class="l_text_model">
+                            <h1>AMG GT</h1>
+                            <ul class="model_list">
+                                <li>0-100 km/t: 2,7 sek</li>
+                                <li>Topphastighet: 330 km/t</li>
+                                <li>Effekt: 650 hk</li>
+                                <li>Dreiemoment: 800 Nm</li>
+                            </ul>
+                        </div>
+                        <div class="r_text_model">
+                            <ul class="model_list mt">
+                                <li>Drivstofforbruk: 1,1 l/mil</li>
+                                <li>CO2-utslipp: 254 g/km</li>
+                                <li>Pris: 1 000 kr/dag</li>
+                            </ul>
+                            <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div id="super" class="super">
+        <div class="container">
+            <h1 class="title_cat">Super</h1>
+            <div class="lamborghini_cat">
+                <h1 class="brand_name">Lamborghini</h1>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img img_flip" style="object-fit: cover; height: 110px; margin-top: 40px;" src="https://www.pngarts.com/files/3/Convertible-Lamborghini-Transparent-Image.png" alt="Aventador">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>Aventador</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 2 500 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img img_flip" style="object-fit: cover; height: 110px; margin-top: 30px;" src="https://purepng.com/public/uploads/large/purepng.com-blue-lamborghini-huracan-carcarvehicletransportlamborghini-961524660798ubfpa.png" alt="huracan">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>Huracan</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 1 000 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img" style="object-fit: cover; height: 110px; margin-top: 30px;" src="https://lamborghinimontreal.com/wp-content/uploads/2023/01/Urus-Lamborghini-modele.png" alt="urus">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>Urus</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 2 500 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bugatti_cat">
+                <h1 class="brand_name">Bugatti</h1>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img img_flip" style="object-fit: cover; height: 110px; margin-top: 30px;" src="https://purepng.com/public/uploads/large/purepng.com-blue-bugatti-chiron-carcarvehicletransportbugatti-961524661031g21xt.png" alt="Chiron">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>Chiron</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 2 500 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img" style="object-fit: cover; height: 110px; margin-top: 30px;" src="https://www.mansory.com/sites/default/files/styles/car_view/public/2019-04/bugatti-linea-vivere.png?itok=piBBwk-m" alt="Veyron">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>Veyron</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 2 500 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img img_flip" style="object-fit: cover; width: 330px; height: 200px; margin-top: 0px;" src="/images/divo.png" alt="Divo">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>Divo</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 2 500 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+            </div>
+            <div class="ferarri_cat">
+                <h1 class="brand_name">Ferarri</h1>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img" style="object-fit: cover; height: 90px; margin-top: 40px;" src="https://s3-us-west-1.amazonaws.com/exr-static/upload/vegassupercars/cars/FERRARI_488_GTB/gallery/SV_FERRARI_488_GTB_CUTOUT.png" alt="Veyron">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>488 GTB</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 2 500 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img img_flip" style="object-fit: cover; height: 100px; margin-top: 40px;" src="https://lvcexotics.com/wp-content/uploads/DSC08573-removebg-770x507.png" alt="Veyron">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>812 Superfast</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 2 500 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img" style="object-fit: cover; height: 150px; margin-top: -20px;" src="https://cdn.drivek.com/configurator-icon/cars/it/800/FERRARI/SF90-STRADALE/39002_COUPE-2-PORTE/ferrari-sf90-stradale-2019-side-view.png" alt="Veyron">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>SF90 Stradale</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 2 500 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="lux" class="lux">
+        <div class="container">
+            <h1 class="title_cat">Lux</h1>
+            <div class="mercedes_cat">
+                <h1 class="brand_name">Mercedes-Benz</h1>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img img_flip" style="object-fit: cover; height: 150px; margin-top: 10px;" src="https://img.sm360.ca/ir/w640h390c/images/newcar/ca/2023/mercedes-benz/classe-g/550v/suv/exteriorColors/2023_mercedes-benz_classe-g_1-550v_ext_001_197.png" alt="Veyron">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>Gelenderwagen</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 1 500 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img img_flip" style="object-fit: cover; height: 90px; margin-top: 50px;" src="https://images.dealer.com/ddc/vehicles/2023/Mercedes-Benz/Maybach%20S%20680/Sedan/trim_Base_1a5cd4/perspective/side-left/2023_24.png" alt="Veyron">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>Maybach</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 1 500 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img img_flip" style="object-fit: cover; height: 150px; margin-top: 10px;" src="https://www.ichauffeur.co.uk/wp-content/uploads/2021/03/Mercedes-S-Class-cutout-2021.png" alt="Veyron">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>S-klasse</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 1 500 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+            </div>
+            <div class="rolls_cat">
+                <h1 class="brand_name">Rolls-Royce</h1>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img" style="object-fit: cover; height: 110px; margin-top: 30px;" src="https://rolls-royce.pa-wood.co.uk/images/models/models_slider/phantom.png" alt="Veyron">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>Phantom</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 1 500 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img img_flip" style="object-fit: cover; height: 120px; margin-top: 30px;" src="https://alialghanimsons.com.kw/media/pages/Rolls-Royce-Ghost_2021.png" alt="Veyron">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>Ghost</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 1 500 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img img_flip" style="object-fit: cover; height: 140px; margin-top: 10px;" src="https://www.carsized.com/resources/rolls-royce/cullinan/d/2018/sm_300114153_rolls-royce-cullinan-2018-side-view_4x.png" alt="Veyron">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>Cullinan</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 1 500 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+            </div>
+            <div class="range_cat">
+                <h1 class="brand_name">Range Rover</h1>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img" style="object-fit: cover; height: 120px; margin-top: 30px;" src="https://images.dealer.com/ddc/vehicles/2021/Land%20Rover/Range%20Rover%20Velar/SUV/perspective/front-left/2020_24.png" alt="Veyron">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>Velar</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 1 500 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img" style="object-fit: cover; height: 120px; margin-top: 30px;" src="https://images.dealer.com/ddc/vehicles/2023/Land%20Rover/Range%20Rover%20Sport/SUV/perspective/front-left/2023_24.png" alt="Veyron">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>Sport</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 1 500 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+                <div class="car_model">
+                    <div class="picture_model">
+                        <img class="biler_img" style="object-fit: cover; height: 125px; margin-top: 30px;" src="https://images.dealer.com/ddc/vehicles/2022/Land%20Rover/Range%20Rover%20Evoque/SUV/perspective/front-left/2022_20.png" alt="Veyron">
+                    </div>
+                    <div class="l_text_model">
+                        <h1>Evoque</h1>
+                        <ul class="model_list">
+                            <li>0-100 km/t: 2,7 sek</li>
+                            <li>Topphastighet: 330 km/t</li>
+                            <li>Effekt: 650 hk</li>
+                            <li>Dreiemoment: 800 Nm</li>
+                        </ul>
+                    </div>
+                    <div class="r_text_model">
+                        <ul class="model_list mt">
+                            <li>Drivstofforbruk: 1,1 l/mil</li>
+                            <li>CO2-utslipp: 254 g/km</li>
+                            <li>Pris: 1 500 kr/dag</li>
+                        </ul>
+                        <a href="booking.html" class="invite-link invite-link-black">Book nå</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="container">
+        <div class="footer-row">
+            <div class="footer_logo-box">
+                <a href="index.html" class="logo">
+                    <img class="logo_img" src="https://upload.wikimedia.org/wikipedia/commons/7/74/Prime_Hydration_logo.png" alt="logo">
+                </a>
+                <ul class="social">
+                    <li>
+                        <a class="facebook" href="index.html"></a>
+                    </li>
+                    <li>
+                        <a class="youtube" href="index.html"></a>
+                    </li>
+                    <li>
+                        <a class="twitter" href="index.html"></a>
+                    </li>
+                    <li>
+                        <a class="pinterest" href="index.html"></a>
+                    </li>
+                    <li>
+                        <a class="instagram" href="index.html"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_menu-box">
+                <ul class="footer_menu">
+                    <li class="footer_menu-item">
+                        <a class="footer_menu-link" href="biler.html">Biler</a>
+                    </li>
+                    <li class="footer_menu-item">
+                        <a class="footer_menu-link" href="pricing.html">Priser</a>
+                    </li>
+                    <li class="footer_menu-item">
+                        <a class="footer_menu-link" href="omoss.html">Om Oss</a>
+                    </li>
+                    <li class="footer_menu-item">
+                        <a class="footer_menu-link" href="kontakt.html">Kontakt</a>
+                    </li>
+                </ul>
+                <ul class="footer_menu">
+                    <li class="footer_menu-item">
+                            <p class="footer_menu-text">Kontaktinformasjon</p>
+                        </li>
+                        <li class="footer_menu-item">
+                            <p class="footer_menu-text">Telefon: +47 123 456 789</p>
+                        </li>
+                        <li class="footer_menu-item">
+                            <p class="footer_menu-text">E-post: kontakt@primecars.no</p>
+                        </li>
+                        <li class="footer_menu-item">
+                            <p class="footer_menu-text">Adresse: Vikaveien 1, 0123 Oslo</p>
+                        </li>
+                </ul>
+            </div>
+            <div class="footer_copyright">
+                <a href="booking.html" class="invite-link invite-link-white">booking</a>
+                <p class="opaque-grey">&copy; 2023 Jonathan Borge</p>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="js/app.js"></script>
+    <script>
+        ScrollReveal().reveal('.revealbiler', { delay: 500 }, { reset: true });
+    </script>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var galleryItems = document.querySelectorAll('.gallery a');
+        var mainSection = document.getElementById('main');
+
+        galleryItems.forEach(function (item) {
+            item.addEventListener('click', function (event) {
+                event.preventDefault();
+                var target = this.getAttribute('href').substring(1);
+                mainSection.querySelectorAll('.sport, .super, .lux').forEach(function (section) {
+                    section.classList.remove('show');
+                });
+                mainSection.querySelector('#' + target).classList.add('show');
+        
+                var targetSection = document.getElementById(target);
+                targetSection.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    });
+    </script>
+</body>
+</html>
