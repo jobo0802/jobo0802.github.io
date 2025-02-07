@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Administrator Dashboard</title>
+    <link rel="stylesheet" href="styles/admin.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Administrator Dashboard</h1>
+        
+        <h2>Booking Oversikt</h2>
+        <div id="allBookingsContainer">
+            <!-- All bookings will be loaded here -->
+        </div>
+        
+        <hr>
+        
+        <h2>Bruker Administrasjon</h2>
+        <form id="createUserForm">
+            <label for="newUsername">Brukernavn:</label>
+            <input type="text" id="newUsername" name="newUsername" required>
+            <label for="newPassword">Passord:</label>
+            <input type="password" id="newPassword" name="newPassword" required>
+            <button type="submit">Oprett Bruker</button>
+        </form>
+        <div id="createUserMessage"></div>
+        <h3>Eksisterende Brukere</h3>
+        <div id="usersContainer"></div>
+        
+        <button id="logoutBtn">Log ut</button>
+    </div>
+    <script src="scripts/admin.js"></script>
+</body>
+</html>

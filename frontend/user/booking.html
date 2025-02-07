@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book et studio</title>
+    <link rel="stylesheet" href="styles/user.css">
+</head>
+<body>
+    <div class="booking-container">
+        <h1>Book et studio</h1>
+        <form id="bookingForm">
+            <label for="room">Velg Studio</label>
+            <select id="room" name="room" required>
+                <option value="">--Velg Studio--</option>
+                <option value="Room A">Golf Studio</option>
+                <option value="Room B">Distortion Studio</option>
+                <option value="Room C">Bausa Studio</option>
+            </select>
+            <label for="date">Dato:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="startTime">Start tid:</label>
+            <input type="time" id="startTime" name="startTime" required>
+            <label for="endTime">Slutt tid:</label>
+            <input type="time" id="endTime" name="endTime" required>
+            <button type="submit">Sjekk tilgjengelighet og send inn</button>
+        </form>
+        <div id="bookingMessage"></div>
+        <!-- <div>
+            <button id="checkAvailability">Check Availability</button>
+            <div id="availabilityResult"></div>
+        </div> -->
+        <hr>
+        <div id="userBookingsSection">
+            <h2>Mine Bookinger</h2>
+            <div id="userBookings"></div>
+        </div>
+    </div>
+    <script src="scripts/user.js"></script>
+</body>
+</html>

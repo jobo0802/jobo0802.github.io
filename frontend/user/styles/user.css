@@ -1,0 +1,59 @@
+/* frontend/user/styles/user.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+.login-container, .booking-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1, h2 {
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-top: 10px;
+}
+input, select, button {
+    margin-top: 5px;
+    padding: 8px;
+}
+button {
+    margin-top: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+#loginMessage, #bookingMessage, #availabilityResult {
+    margin-top: 15px;
+    text-align: center;
+}
+#userBookingsSection {
+    margin-top: 20px;
+}
+.booking-item {
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.booking-item button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.booking-item button:hover {
+    background-color: #c9302c;
+}

@@ -1,0 +1,46 @@
+/* frontend/admin/styles/admin.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6;
+}
+.admin-login-container, .dashboard-container {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1, h2, h3 {
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-top: 10px;
+}
+input, button {
+    margin-top: 5px;
+    padding: 8px;
+}
+button {
+    margin-top: 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#adminLoginMessage, #createUserMessage {
+    margin-top: 15px;
+    text-align: center;
+}
+.booking-item, .user-item {
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 10px;
+}

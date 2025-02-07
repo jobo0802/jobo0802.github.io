@@ -1,0 +1,7 @@
+{
+    "adminUsername": "admin",
+    "adminPassword": "admin123",
+    "sessionSecret": "your-session-secret-here",
+    "databaseFile": "bookings.db"
+  }
+  
